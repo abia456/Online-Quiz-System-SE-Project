@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstructorQuizGradeActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/instructor_quiz_grade_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student: Usman"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/instructor_quiz_grade_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="Quiz: Quiz 1"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/instructor_quiz_grade_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 2"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/instructor_quiz_grade_layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State the..."
+            android:textSize="16dp"
+            app:hintTextColor="@color/black" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/instructor_quiz_grade_layout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/instructor_quiz_grade_layout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The..."
+            android:textSize="16dp"
+            app:hintTextColor="@color/black" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/instructor_quiz_grade_layout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Marks Earned Here"
+            app:hintTextColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:onClick="InstructorQuizGradeStudentQuestion2Back"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="0.2"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:onClick="InstructorQuizGradeStudentQuestion2Next"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="0.2"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

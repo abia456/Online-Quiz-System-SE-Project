@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/quiz_list_menu_button"
+        android:title="Quiz List"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/qb_log_out"
+        android:title="Log Out" />
+</menu>

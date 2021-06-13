@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/quiz_time_left"
+        app:showAsAction="always"
+        android:title="Time Left: 00:00:00" />
+    <item
+        android:id="@+id/unatttemped"
+        app:showAsAction="always"
+        android:title="UnAttempted Qs:" />
+    <item
+        android:id="@+id/spinner"
+        android:title=""
+        app:actionViewClass="android.widget.Spinner"
+        android:background="#ff00"
+        app:showAsAction="always"/>
+</menu>

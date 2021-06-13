@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">QMS</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string-array name="temp_array">
+        <item>Question 1:    39s</item>
+        <item>Question 2:    21s</item>
+        <item>Question 3:    34s</item>
+        <item>Question 4:    42s</item>
+        <item>Question 5:    1m 3s</item>
+        <item>Question 6:    17s</item>
+        <item>Question 7:    59s</item>
+        <item>Question 8:    29s</item>
+        <item>Question 9:    33s</item>
+        <item>Question 10:   14s</item>
+        <item>Question 11:   26s</item>
+        <item>Question 12:   51s</item>
+        <item>Question 13:   2m 01s</item>
+        <item>Question 14:   55s</item>
+        <item>Question 15:   33s</item>
+        <item>Question 16:   24s</item>
+    </string-array>
+
+    <string-array name="subjects">
+        <item>SE- E</item>
+        <item>CA- D</item>
+        <item>SE- E</item>
+        <item>SE- E</item>
+        <item>SE- E</item>
+    </string-array>
+
+    <string-array name="durations">
+        <item>25 mins</item>
+        <item>90 mins</item>
+        <item>90 mins</item>
+        <item>90 mins</item>
+        <item>90 mins</item>
+    </string-array>
+
+    <string-array name="Status">
+        <item>Attempted</item>
+        <item>Graded</item>
+        <item>Active</item>
+        <item>Active</item>
+        <item>Active</item>
+    </string-array>
+
+    <string-array name="marks">
+        <item>-</item>
+        <item>90</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="timeleft">
+        <item>25 mins</item>
+        <item>90 mins</item>
+        <item>90 mins</item>
+        <item>90 mins</item>
+        <item>90 mins</item>
+    </string-array>
+
+
+    <string-array name="ChangeStatus">
+        <item>0</item> //0 means not attempted
+    </string-array>
+
+</resources>
